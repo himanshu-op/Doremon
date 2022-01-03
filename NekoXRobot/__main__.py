@@ -52,15 +52,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [{}](https://telegra.ph/file/5fe62f4027eea179e9474.jpg) 」────
+────「 [{}](https://telegra.ph/file/8bf0dd1672e56a461d2c0.jpg) 」────
 *やあ! {},*
 *I am a Anime themed advance group management bot with a lots of New And Powerful Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ✧ *Uptime:* `{}`
 ✧ `{}` *users, across* `{}` *chats.*
-✧ *thanks to @NekoXRobot for neko robot repo*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-➢ Repo Credits : [Repo](https://GitHub.com/Hodacka/NekoRobot)
 ➢ Try The Help Buttons Below To Know My Abilities ✘
 """
 
@@ -68,21 +66,21 @@ buttons = [
     [
                         InlineKeyboardButton(
                             text="Add Me to your groups🎉",
-                            url="t.me/NekoXRobot?startgroup=true"),
+                            url="t.me/DoramonXbot?startgroup=true"),
                     ],
                    [
                        InlineKeyboardButton(text="Help🔐", callback_data="help_back"),
-                       InlineKeyboardButton(text="Bot Support🎊", url="https://t.me/NekoXsupport"),
-                       InlineKeyboardButton(text="Logs🔔", url="t.me/Rental_Girlfriends_Logs"),
+                       InlineKeyboardButton(text="Bot Support🎊", url="t.me/SAFEWATCHFEDCHAT"),
+                       InlineKeyboardButton(text="Logs🔔", url="tg://"),
                      ],
                     [                  
                        InlineKeyboardButton(
                              text="Support🚑",
-                             url=f"https://t.me/Black_Knights_Union_Support"),
+                             url=f"https://t.me/SAFEWATCHFEDCHAT"),
                        InlineKeyboardButton(
                              text="Updates🛰️",
-                             url="https://t.me/Black_Knights_Union"),
-                       InlineKeyboardButton(text="Network📊", url="https://t.me/Yuki_Network")
+                             url="https://t.me/SAFEWATCHFEDCHAT"),
+                       InlineKeyboardButton(text="Network📊", url="https://t.me/SAFEWATCHFEDCHAT")
                      ], 
     ]
 
@@ -101,11 +99,10 @@ For all command use /* [or](https://telegra.ph/file/2866d7d3378cdad7b43ff.jpg) *
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\nKindly use ! for commands if / is not working\n")
 
-GROUP_HELP_IMG = "https://telegra.ph/file/3bf1c58be585793e354ca.jpg"
-NEKO_IMG = "https://telegra.ph/file/6c6de4d3cc229b71a66cf.mp4"
+GROUP_HELP_IMG = "https://telegra.ph/file/8bf0dd1672e56a461d2c0.jpg"
+NEKO_IMG = "https://telegra.ph/file/8bf0dd1672e56a461d2c0.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-Click here to donate in [Telegram](https://t.me/Horimaya)"""
+DONATE_STRING = """Heya, glad to hear you want to donate\nBut we Dont Take Dontations.)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
